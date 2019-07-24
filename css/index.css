@@ -1,0 +1,61 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+</style>
+:root {
+    --main-color: black;
+    --accent-color: white;
+}
+
+body {
+    max-width: 980;
+    margin: auto;
+}
+
+header .contacts-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f44c7f;
+    color: white;
+
+}
+header .logo-profile {
+    display: flex;
+    justify-content: space-between;
+    color: var(--main-color);
+    margin: 0;
+    padding: 20px;
+    }
+
+header .topnavigation {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f44c7f;
+    padding: 0;
+    margin: 0;
+    height: 3rem;
+}
+header .topnavigation a {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+header .topnavigation a:hover {
+    border: 1px solid var(--accent-color);
+
+}
+@media (min-width: 550px) {
+    
+}
+header .banner {
+    min-height: 550px;
+    background-image: url(../img/fb-slider.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}

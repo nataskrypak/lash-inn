@@ -1,6 +1,5 @@
-<style>
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-</style>
+
 :root {
     --main-color: black;
     --accent-color: white;
@@ -14,10 +13,19 @@ body {
 header .contacts-header {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     background-color: #f44c7f;
     color: white;
-
 }
+
+header .phone-mail {
+    margin: 0;
+}
+
+header .phone-mail-icon{
+    height: 16px;
+}
+
 header .logo-profile {
     display: flex;
     justify-content: space-between;
@@ -25,6 +33,11 @@ header .logo-profile {
     margin: 0;
     padding: 20px;
     }
+
+header .logo {
+
+    width: 25%;
+}
 
 header .topnavigation {
     display: flex;
@@ -50,12 +63,12 @@ header .topnavigation a:hover {
 
 }
 @media (min-width: 550px) {
-    
+
 }
 header .banner {
     min-height: 550px;
     background-image: url(../img/fb-slider.jpg);
     background-size: cover;
     background-position: center;
-    
+
 }

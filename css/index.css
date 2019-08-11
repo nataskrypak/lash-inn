@@ -8,7 +8,10 @@
 body {
     max-width: 980;
     margin: auto;
+    scroll-behavior: smooth;
 }
+
+/* header with tel and mail */
 
 header .contacts-header {
     display: flex;
@@ -20,11 +23,15 @@ header .contacts-header {
 
 header .phone-mail {
     margin: 0;
+    padding: 5px 10px 5px 10px;
 }
 
 header .phone-mail-icon{
     height: 16px;
+    padding: 0 5px 0 0;
 }
+
+/*header on white background - logo, search, profile*/
 
 header .logo-profile {
     display: flex;
@@ -35,8 +42,7 @@ header .logo-profile {
     }
 
 header .logo {
-
-    width: 25%;
+    width: 40%;
 }
 
 header .topnavigation {
